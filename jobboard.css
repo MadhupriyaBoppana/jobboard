@@ -1,0 +1,108 @@
+/* General Reset */
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar .actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar .actions a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .post-job {
+    background-color: #28a745;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-content h1 {
+    color: #007BFF;
+    font-size: 2em;
+  }
+  
+  .hero-content h2 {
+    margin: 15px 0;
+    font-size: 1.8em;
+  }
+  
+  .hero-content p {
+    margin: 10px 0 20px;
+    color: #6c757d;
+  }
+  
+  .upload-resume {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar form {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .search-bar input,
+  .search-bar select,
+  .search-bar button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
